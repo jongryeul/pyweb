@@ -1,0 +1,11 @@
+{
+  "execMap": {
+    "py": "python -X utf8"
+  },
+  "watch": ["."],
+  "ext": "py",
+  "ignore": ["node_modules"],
+  "env": {
+    "PYTHONUTF8": "1"
+  }
+}
