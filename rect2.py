@@ -18,9 +18,9 @@ class 사각형:
         
         x = Casting.to_int(data[0]) 
         if len(data) < 2:  # 정사각형일경우를 위해
+        
             y = x
-        else:
-            y = Casting.to_int(data[1])
+        y = Casting.to_int(data[1])
         self.__새넓이(x, y)
     
     def __새넓이(self, x, y):
